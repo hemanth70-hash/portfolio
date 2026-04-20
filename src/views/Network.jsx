@@ -8,7 +8,7 @@ export default function Network() {
   useEffect(() => {
     const fetchNetworkData = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/network');
+        const res = await fetch('https://portfolio-h7y1.onrender.com/api/network');
         const data = await res.json();
         setNetwork(data);
         setIsLoading(false);

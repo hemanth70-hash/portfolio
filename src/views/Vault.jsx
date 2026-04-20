@@ -17,9 +17,9 @@ export default function Vault() {
       try {
         // Fetch from your local Node.js server
         const [projRes, certRes] = await Promise.all([
-          fetch('http://localhost:5000/api/projects'),
-          fetch('http://localhost:5000/api/certifications')
-        ]);
+  fetch('https://portfolio-h7y1.onrender.com/api/projects'),
+  fetch('https://portfolio-h7y1.onrender.com/api/certifications')
+]);
 
         const projData = await projRes.json();
         const certData = await certRes.json();
