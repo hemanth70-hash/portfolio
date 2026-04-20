@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+server/node_modules/
+
+# Environment variables (SECURITY SHIELD)
+.env
+server/.env
+*.env
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
