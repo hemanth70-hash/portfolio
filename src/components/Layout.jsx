@@ -18,16 +18,16 @@ export default function Layout({ children }) {
 
       {/* --- Expanded Left Side Accent (Socials) --- */}
       <div className="hidden xl:flex fixed left-12 bottom-0 flex-col items-center gap-6 z-20">
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
+        <a href="https://github.com/hemanth70-hash" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
           <Github size={22} strokeWidth={1.5} />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
+        <a href="www.linkedin.com/in/hemanth-elipe-353879291" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
           <Linkedin size={22} strokeWidth={1.5} />
         </a>
-        <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
+        <a href="https://www.instagram.com/mr_silentgenius?igsh=eTF6d2w1YzNtb2Zh" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
           <Instagram size={22} strokeWidth={1.5} />
         </a>
-        <a href="https://facebook.com/yourusername" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
+        <a href="https://www.facebook.com/share/1DpkC9GZ9e/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300">
           <Facebook size={22} strokeWidth={1.5} />
         </a>
         {/* The descending line */}
@@ -37,11 +37,11 @@ export default function Layout({ children }) {
       {/* --- Right Side Accent (Email) --- */}
       <div className="hidden xl:flex fixed right-12 bottom-0 flex-col items-center gap-6 z-20">
         <a 
-          href="mailto:hemanth@example.com" 
+          href="mailto: ehemanth709@gmail.com" 
           className="text-slate-400 hover:text-blue-600 hover:-translate-y-1 transition-all duration-300 font-mono text-sm tracking-widest"
           style={{ writingMode: 'vertical-rl' }}
         >
-          hemanth@example.com
+          ehemanth709@gmail.com
         </a>
         <div className="w-[1px] h-32 bg-slate-300 mt-2"></div>
       </div>
