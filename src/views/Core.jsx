@@ -31,7 +31,17 @@ export default function Core() {
   return (
     <div className="animate-fadeIn pb-10">
       {/* Hero Section */}
-      <section className="mt-4 mb-16">
+      <section className="mt-8 mb-16">
+        
+        {/* Professional Image Frame */}
+        <div className="relative w-32 h-32 md:w-40 md:h-40 mb-8">
+          <img
+            src="/hemanth.jpg"
+            alt="Elipe Hemanth"
+            className="rounded-full object-cover w-full h-full shadow-2xl border-4 border-white ring-4 ring-blue-500/30 transition-transform duration-300 hover:scale-105 bg-slate-100"
+          />
+        </div>
+
         <h1 className="text-5xl md:text-7xl font-black text-slate-900 tracking-tight">
           ELIPE HEMANTH
         </h1>
@@ -52,13 +62,12 @@ export default function Core() {
           Professional Overview
         </h3>
         
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {achievements.map((item) => {
             const Icon = item.icon;
             return (
               <div 
                 key={item.id} 
-                // NEW: Added hover:-translate-y-2 and hover:shadow-xl for a lifting effect
                 className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out group"
               >
                 <div className="mb-5 text-slate-400 group-hover:text-blue-600 group-hover:scale-110 transition-all duration-300 origin-left">
